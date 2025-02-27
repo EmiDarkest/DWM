@@ -5,13 +5,13 @@ static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 35;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "firecode:size=10" };
+static const char *fonts[]          = { "firecode:size=10" }; /* Fonts */
 static const char dmenufont[]       = "firecode:size=10";
-static const char col_gray1[]       = "#0a0a0a";
+static const char col_gray1[]       = "#0a0a0a"; 
 static const char col_gray2[]       = "#0a0a0a";
 static const char col_gray3[]       = "#ffffff";
 static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#8611d9";
+static const char col_cyan[]        = "#8611d9"; /* color */
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
